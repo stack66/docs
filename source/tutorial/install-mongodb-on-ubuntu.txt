@@ -4,25 +4,23 @@ Install MongoDB on Ubuntu
 
 .. default-domain:: mongodb
 
-Synopsis
 --------
 
-This tutorial outlines the basic installation process for installing
-:term:`MongoDB` on Ubuntu Linux systems. This tutorial uses
-``.deb`` packages as the basis of the installation. 10gen publishes
-packages of the MongoDB releases as ``.deb`` packages for easy
-installation and management for users of Ubuntu systems. Although Ubuntu does
-include MongoDB packages, the 10gen
-packages are generally more up to date.
+Это руководство показывает в общих чертах процесс установки
+:term:`MongoDB` на Ubuntu Linux. В руководстве используются
+``.deb`` пакеты как основа для установки. 10gen публикует
+релизы MongoDB как ``.deb`` пакеты для облегчения установки
+и настройки ползователям Ubuntu. Хотя Ubuntu содержит
+пакеты MongoDB, пакеты 10gen обычно более свежие.
 
-This tutorial includes: an overview of the available packages,
-instructions for configuring the package manager, the process for installing
-packages from the 10gen repository, and preliminary MongoDB
-configuration and operation.
+Руководство включает: обзор доступных пакетов,
+инструкции по настройке менеджера пакетов, процесс установки
+из репозитория 10gen,предварительные настройки MongoDB и
+начальные операции.
 
 .. note::
 
-   If you use an older Ubuntu that does **not** use Upstart, (i.e. any
+   Если у вас старая версия Ubuntu, **not** use Upstart, (i.e. any
    version before 9.10 "Karmic") please follow the instructions on the
    :doc:`install-mongodb-on-debian` tutorial.
 
